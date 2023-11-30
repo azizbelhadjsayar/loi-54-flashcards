@@ -12,7 +12,11 @@ body {
     justify-content: center;
     align-items: center;
     gap: 40px;
-    background: url('top-view-career-guidance-items-judges.jpg') no-repeat center/cover fixed;
+    background-image: url('top-view-career-guidance-items-judges.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center;
 }
 
 .flip-card {
