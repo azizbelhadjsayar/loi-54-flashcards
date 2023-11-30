@@ -12,8 +12,7 @@ body {
     justify-content: center;
     align-items: center;
     gap: 40px;
-    background-image: url('top-view-career-guidance-items-judges.jpg');
-    background-repeat: no-repeat;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('top-view-career-guidance-items-judges.jpg');
     background-attachment: fixed;
     background-size: cover;
     background-position: center;
