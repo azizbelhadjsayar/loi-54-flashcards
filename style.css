@@ -8,21 +8,22 @@ html {
 }
 
 body {
-    width: 100vw;
+
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     gap: 40px;
     background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('giphy\ \(2\).gif');
-    background-size:115%;
+    background-size:150%;
+    background-position: center;
 }
 
 .flip-card {
     background-color: transparent;
     width: 80%;
     max-width: 300px;
-    height: 400px;
+    height: 420px;
     perspective: 1000px;
     font-family: sans-serif;
     margin-bottom: 30px;
@@ -98,4 +99,5 @@ body {
   #img2 {
     margin-bottom: 30px;
     border-radius: 20px;
+    width: 90%;
   }
